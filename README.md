@@ -1,8 +1,21 @@
+To compile and run both programs from the terminal, input these commands
+  - ### **Average.cpp**
+     - g++ -std=c++17 -Wall -Wextra average.cpp -o average ./average
+    
+  - ### **Ocean_level.cpp**
+     - g++ -std=c++17 -Wall -Wextra ocean_levels.cpp -o ocean_levels ./ocean_levels
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+## Code Explanations
 Why should the five values and the average use the double data type?
   - the reason we use [double] is when we divide the sum of the five variables by 5 we get a decimal and we wont get a accurate number if we use [int]
 
 Trace the assigned values through sum and average.
-  - values: [28 + 32 + 37 + 24 + 33]
+  - values: [28, 32, 37, 24, 33]
   - sum calculation:  (28+32= 60) -> (60+37= 97) -> (97+24= 121) -> (121+33= 154) and sum = 154
   - average calculation: 154.0 / 5.0(the numbers of values) = 30.8
 
